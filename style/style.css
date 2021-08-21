@@ -48,6 +48,11 @@ body{
     width: 100%;
     background-color: #f2f2f2;
     border-bottom: #dadce0 1px solid;
+    color:rgb(105, 105, 105);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
 }
 #search_icon{
     color: gray;
@@ -98,4 +103,27 @@ body{
 
 .search-btn:hover{
     border:rgb(216, 216, 216) 1px solid;
+}
+
+.footer-block ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 30%;
+}
+
+
+.footer-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-text{
+    align-self: center;
+    margin-left: 35px;
+}
+
+.left-list{
+    justify-content: flex-end;
 }
